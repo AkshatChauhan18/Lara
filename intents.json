@@ -1,0 +1,73 @@
+{
+    "intents":[
+        {
+            "tag":"wake ai",
+            "patterns":["lara"],
+            "responses":["What can I do for you ?","Yes sir","What should I do ?"]
+        },
+        {
+            "tag":"goodbye",
+            "patterns":["bye bye","goodbye","bye","stop"],
+            "responses":["Bye sir !","Good bye sir","See you later sir","Good bye sir","Have a nice day sir !"]
+        },
+        {
+            "tag":"light on",
+            "patterns":["lights on","light on","turn the light on","switch on the light","switch on the lights","turn the lights on","switch on light","switch on lights","turn on the lights","turn on the light"],
+            "responses":["Turning the light on sir","Just a second sir","Ok sir","Switching on lights"]
+
+        },
+        {
+            "tag":"light off",
+            "patterns":["lights off","light off","turn the light off","switch off the light","switch off the lights","turn the lights off","switch off light","switch off lights","turn off the lights","turn off the light"],
+            "responses":["Turning the light off sir","Just a second sir","Ok sir","Switching off lights"]
+
+        },
+        {
+            "tag":"shutdown system",
+            "patterns":["shutdown the system","shutdown system","shutdown"],
+            "responses":["Shutting down the system"]
+        },
+        {
+            "tag":"log out system",
+            "patterns":["log out","log out from the system","log out from system"],
+            "responses":["logging out","logging out from the system"]
+        },
+        {
+            "tag":"lock system",
+            "patterns":["lock the system","lock machine","lock","lock system"],
+            "responses":["locking the system"]
+        },
+        {
+            "tag":"restart system",
+            "patterns":["restart the system","restart machine","restart system"],
+            "responses":["restarting","restarting the system"]
+        },
+        {
+            "tag":"open website",
+            "patterns":[],
+            "responses":["Okay, right on your screen","just a second","ok sir","Okay, opening it"]
+        },
+        {
+            "tag":"search in chrome",
+            "patterns":[],
+            "responses":["Okay, right on your screen","just a second","ok sir","searching it"]
+        },
+        {
+            "tag":"open app",
+            "patterns":[],
+            "responses":["opening","starting"]
+        },
+        {
+            "tag":"screenshot",
+            "patterns":[],
+            "responses":["ok sir","ok"]
+        },
+        {
+            "tag":"show calendar",
+            "patterns":[],
+            "responses":["Here is your calendar","Right in front of you"]
+        }
+        
+
+    ]
+}
